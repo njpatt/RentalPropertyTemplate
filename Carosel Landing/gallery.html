@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>bootstrap 4 landing page with slider</title>
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- style.css -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!--script.js-->
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="galscript.js"></script>
+    <!-- jquery cdn -->
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="col-md-12 navbar navbar-dark bg-dark">
+            <a href="index.html" class="logo navbar-brand text-white offset-md-2">912 Cashiers Way</a>
+            <ul class="nav">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="index.html#about" class="nav-link">About</a></li>
+                <li class="nav-item active"><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="gallery.html" class="nav-link">Activities</a></li>
+                <li class="nav-item"><a href="gallery.html" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#" class="myButton" href="https://www.airbnb.com/">Book Now</a></li>
+            </ul>
+        </div>
+
+        <!-- slider banner	 -->
+    </div>
+    </div>
+
+    <!--Gallery Start-->
+    <div class="container">
+        <div class="row">
+            <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h1 class="text-center">Gallery</h1>
+            </div>
+
+            <div class="center">
+                <h5>Filter by:</h2>
+                    <li class="btn btn-default filter-button" data-filter="all">All</li>
+                    <li class="btn btn-default filter-button" data-filter="1">House</li>
+                    <!--1 is used to filter images, in this case 1 is a 'house' picture-->
+                    <button class="btn btn-default filter-button" data-filter="2">Nearby</button>
+                    <button class="btn btn-default filter-button" data-filter="3">Hikes</button>
+                    <button class="btn btn-default filter-button" data-filter="4">Activities</button>
+            </div><br>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-4 filter 1">
+                <img src="img/house1.jpg" alt="housepic" class="img-responsive" srcset="">
+            </div>
+            <!--Tagged as 1-->
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-4 filter 2">
+                <img src="img/lake.jpg" alt="lake" class="img-responsive" srcset="">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-4 filter 1">
+                <img src="img/interiorhouse.jpg" alt="livingroom" class="img-responsive" srcset="">
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- scripts -->
+    <!-- bootstrap javascript cdn -->
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
